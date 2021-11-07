@@ -5,7 +5,7 @@ async function handleRequest(_request) {
   // additional info like headers, method, and body for POST requests as
   // the second argument. By default fetch makes a GET request,
   // so we can skip specifying method for GET requests.
-  const response = await fetch("https://api.github.com/users/denoland", {
+  const response = await fetch("https://api.github.com/users/ajdegol", {
     headers: {
       // Servers use this header to decide on response body format.
       // "application/json" implies that we accept the data in JSON format.
